@@ -5,12 +5,12 @@
 
 
 <!-- Luego sigue lo que ya tenías -->
+<img align="right" height="300px" width= "320px" alt="GIF" src="https://media.giphy.com/media/CVtNe84hhYF9u/giphy.gif" />
+
 <h1 align="center">Hi, I'm Salome Mercado Ponce <img width="30px" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif"></h1>
 <h3 align="center">A passionate developer and student from Perú 🇵🇪</h3>
 
 ---
-<img align="right" height="300px" width= "320px" alt="GIF" src="https://media.giphy.com/media/CVtNe84hhYF9u/giphy.gif" />
-
 
 - 🌱 I’m currently learning **Java, Python and Web Development**  
 - 👯 I’m looking to collaborate on **Educational & Web Projects**  
