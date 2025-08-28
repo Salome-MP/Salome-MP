@@ -1,7 +1,7 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Salome-MP/Salome-MP/main/.github/assets/neon-snake.svg" alt="SALOME MP neon snake"/>
-</p>
+<!-- Lluvia binaria al inicio -->
+[![Binary Rain](https://raw.githubusercontent.com/Salome-MP/Salome-MP/main/.github/assets/binary.svg)](https://www.youtube.com/watch?v=SDkAGkd4NLc)
 
+<!-- Luego sigue lo que ya tenías -->
 <h1 align="center">Hi, I'm Salome Mercado Ponce <img width="30px" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif"></h1>
 <h3 align="center">A passionate developer and student from Perú 🇵🇪</h3>
 
