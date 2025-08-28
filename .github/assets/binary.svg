@@ -1,50 +1,74 @@
 <!-- .github/assets/binary.svg -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" preserveAspectRatio="none">
-  <!-- Fondo negro -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="320" preserveAspectRatio="none">
   <rect width="100%" height="100%" fill="#000"/>
 
   <defs>
-    <!-- Halo suave verde -->
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="1.1" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <!-- Brillo/halo verde -->
+    <filter id="neon">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.2" result="b1"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4.2" result="b2"/>
+      <feMerge><feMergeNode in="b2"/><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
 
-    <!-- Columna reutilizable con muchas líneas de 0 y 1 -->
-    <symbol id="col" viewBox="-12 -380 24 760" overflow="visible">
-      <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace"
-         font-size="18" text-anchor="middle" fill="#39ff14" filter="url(#glow)">
-        <!-- 40 líneas (largas para que siempre haya flujo mientras cae) -->
-        <text x="0" y="-360">0101011001101010011010011010010110100110</text>
-        <text x="0" y="-340">1010011010010101101001010110100101101001</text>
-        <text x="0" y="-320">0011010100110101001101010011010100110100</text>
-        <text x="0" y="-300">0110100101011010010101101001010110100101</text>
-        <text x="0" y="-280">1101001101001011010011010010110100110100</text>
-        <text x="0" y="-260">0100110101001101010011010100110101001101</text>
-        <text x="0" y="-240">1001010110100101011010010101101001010110</text>
-        <text x="0" y="-220">0100110101001101010011010100110101001101</text>
-        <text x="0" y="-200">1010011010010101101001010110100101101001</text>
-        <text x="0" y="-180">0011010100110101001101010011010100110100</text>
-        <text x="0" y="-160">0110100101011010010101101001010110100101</text>
-        <text x="0" y="-140">1101001101001011010011010010110100110100</text>
-        <text x="0" y="-120">0100110101001101010011010100110101001101</text>
-        <text x="0" y="-100">1001010110100101011010010101101001010110</text>
-        <text x="0" y="-80">0100110101001101010011010100110101001101</text>
-        <text x="0" y="-60">1010011010010101101001010110100101101001</text>
-        <text x="0" y="-40">0011010100110101001101010011010100110100</text>
-        <text x="0" y="-20">0110100101011010010101101001010110100101</text>
-        <text x="0" y="0">1101001101001011010011010010110100110100</text>
-        <text x="0" y="20">0100110101001101010011010100110101001101</text>
-        <text x="0" y="40">1001010110100101011010010101101001010110</text>
-        <text x="0" y="60">0100110101001101010011010100110101001101</text>
-        <text x="0" y="80">1010011010010101101001010110100101101001</text>
-        <text x="0" y="100">0011010100110101001101010011010100110100</text>
-        <text x="0" y="120">0110100101011010010101101001010110100101</text>
-        <text x="0" y="140">1101001101001011010011010010110100110100</text>
-        <text x="0" y="160">0100110101001101010011010100110101001101</text>
-        <text x="0" y="180">1001010110100101011010010101101001010110</text>
-        <text x="0" y="200">0100110101001101010011010100110101001101</text>
-        <text x="0" y="220">1010011010010101101001010110100101101001</text>
-        <text x="0" y="240">0011010100110101001101010011010100110100</text>
-        <text x="0" y="260">0110100101011010010101101001010110100101</text>
-        <text x="0" y="280">110100110100101101001101001011010011
+    <!-- Desvanecido arriba/abajo (oculta el loop) -->
+    <linearGradient id="fadeY" gradientTransform="rotate(90)">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.12" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="0.88" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="mask-fade"><rect width="100%" height="100%" fill="url(#fadeY)"/></mask>
+
+    <!-- Glifos (mezcla tipo Matrix) -->
+    <g id="gA" font-family="ui-monospace,Consolas,Menlo,monospace" font-weight="700"
+       font-size="28" fill="#39ff14" stroke="#7dff7d" stroke-width="0.8" filter="url(#neon)">
+      <text x="10" y="32">ｱ</text>
+    </g>
+    <g id="gB" font-family="ui-monospace,Consolas,Menlo,monospace" font-weight="700"
+       font-size="28" fill="#39ff14" stroke="#7dff7d" stroke-width="0.8" filter="url(#neon)">
+      <text x="10" y="32">8</text>
+    </g>
+    <g id="gC" font-family="ui-monospace,Consolas,Menlo,monospace" font-weight="700"
+       font-size="28" fill="#39ff14" stroke="#7dff7d" stroke-width="0.8" filter="url(#neon)">
+      <text x="10" y="32">A</text>
+    </g>
+    <g id="gD" font-family="ui-monospace,Consolas,Menlo,monospace" font-weight="700"
+       font-size="28" fill="#39ff14" stroke="#7dff7d" stroke-width="0.8" filter="url(#neon)">
+      <text x="10" y="32">∑</text>
+    </g>
+    <g id="gE" font-family="ui-monospace,Consolas,Menlo,monospace" font-weight="700"
+       font-size="28" fill="#39ff14" stroke="#7dff7d" stroke-width="0.8" filter="url(#neon)">
+      <text x="10" y="32">0</text>
+    </g>
+
+    <!-- Patterns (48x48 = densidad del banner) -->
+    <!-- Capa brillante 1 -->
+    <pattern id="pA" patternUnits="userSpaceOnUse" width="48" height="48">
+      <use href="#gA"/><use href="#gB" x="24"/><use href="#gC" y="24"/><use href="#gE" x="24" y="24"/>
+      <animateTransform attributeName="patternTransform" type="translate" values="0,-640;0,640" dur="4.2s" repeatCount="indefinite"/>
+    </pattern>
+    <!-- Capa brillante 2 (desfase para variar columnas) -->
+    <pattern id="pB" patternUnits="userSpaceOnUse" width="48" height="48">
+      <g transform="translate(12,0)"><use href="#gE"/><use href="#gD" x="24"/><use href="#gB" y="24"/><use href="#gA" x="24" y="24"/></g>
+      <animateTransform attributeName="patternTransform" type="translate" values="0,-620;0,620" dur="4.8s" begin="-1.2s" repeatCount="indefinite"/>
+    </pattern>
+    <!-- Capa tenue 1 (profundidad) -->
+    <pattern id="pC" patternUnits="userSpaceOnUse" width="48" height="48">
+      <g opacity="0.55"><use href="#gC"/><use href="#gA" x="24"/><use href="#gD" y="24"/><use href="#gE" x="24" y="24"/></g>
+      <animateTransform attributeName="patternTransform" type="translate" values="0,-640;0,640" dur="5.6s" begin="-0.6s" repeatCount="indefinite"/>
+    </pattern>
+    <!-- Capa tenue 2 -->
+    <pattern id="pD" patternUnits="userSpaceOnUse" width="48" height="48">
+      <g opacity="0.55" transform="translate(12,0)"><use href="#gB"/><use href="#gE" x="24"/><use href="#gA" y="24"/><use href="#gC" x="24" y="24"/></g>
+      <animateTransform attributeName="patternTransform" type="translate" values="0,-600;0,600" dur="6.2s" begin="-2s" repeatCount="indefinite"/>
+    </pattern>
+  </defs>
+
+  <!-- Cortina completa -->
+  <g mask="url(#mask-fade)">
+    <rect width="100%" height="100%" fill="url(#pA)"/>
+    <rect width="100%" height="100%" fill="url(#pB)"/>
+    <rect width="100%" height="100%" fill="url(#pC)"/>
+    <rect width="100%" height="100%" fill="url(#pD)"/>
+  </g>
+</svg>
