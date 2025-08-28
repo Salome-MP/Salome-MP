@@ -9,7 +9,6 @@
 <h3 align="center">A passionate developer and student from Perú 🇵🇪</h3>
 
 ---
-<img align="right" height="300px" width= "320px" alt="GIF" src="https://media.giphy.com/media/CVtNe84hhYF9u/giphy.gif" />
 
 - 🌱 I’m currently learning **Java, Python and Web Development**  
 - 👯 I’m looking to collaborate on **Educational & Web Projects**  
@@ -17,6 +16,8 @@
 - 👨‍💻 All of my projects are available here on my GitHub  
 - 💬 Ask me about **Software Development and Problem Solving**  
 - ⚡ Fun fact: **Coding is not just a profession, it’s my passion.**
+
+<img align="right" height="300px" width= "320px" alt="GIF" src="https://media.giphy.com/media/CVtNe84hhYF9u/giphy.gif" />
 
 ---
 
