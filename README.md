@@ -1,5 +1,8 @@
 <!-- Lluvia binaria al inicio -->
-[![Binary Rain](https://raw.githubusercontent.com/Salome-MP/Salome-MP/main/.github/assets/binary.svg)](https://www.youtube.com/watch?v=SDkAGkd4NLc)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Salome-MP/Salome-MP/main/.github/assets/binary.svg" alt="Binary Rain" width="100%">
+</p>
+
 
 <!-- Luego sigue lo que ya tenías -->
 <h1 align="center">Hi, I'm Salome Mercado Ponce <img width="30px" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif"></h1>
