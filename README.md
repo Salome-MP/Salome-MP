@@ -5,7 +5,7 @@
 
 <!-- Redes sociales -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/manumanoj0010/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin"></a>
+  <a href="www.linkedin.com/in/salomemp/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin"></a>
   <a href="mailto:manumanoj0010@gmail.com"><img src="https://img.shields.io/badge/Gmail-red?style=flat-square&logo=gmail&logoColor=white"></a>
   <a href="https://manumanoj.me"><img src="https://img.shields.io/badge/-Website-47CCCC?style=flat&logo=Google-Chrome&logoColor=white"></a>
   <a href="https://twitter.com/manumanoj0010"><img src="https://img.shields.io/badge/-Twitter-1ca0f1?style=flat&logo=twitter&logoColor=white"></a>
