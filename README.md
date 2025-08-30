@@ -1,6 +1,6 @@
 <!-- Lluvia binaria al inicio -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Salome-MP/Salome-MP/main/.github/assets/binary.svg" alt="Binary Rain" width="100%">
+  <img src="dd/main/.github/assets/binary.svg" alt="Binary Rain" width="100%">
 </p>
 
 <!-- Redes sociales -->
