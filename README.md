@@ -26,11 +26,11 @@
   Hola, soy Salome Mercado Ponce
 </h1>
 
--  Estudiante de Ingeniería de Software en Perú 🇵🇪  
+-  Estudiante de Ingeniería de Software en Perú 
 -  Aprendiz autodidacta con enfoque en el desarrollo backend  
 -  Apasionada por la programación, la resolución de problemas y el aprendizaje continuo  
 -  Interesada en proyectos de Inteligencia Artificial y Desarrollo Web  
--  Objetivo profesional: desempeñarse como Desarrolladora Backend  
+-  Objetivo profesional: desempeñarse como Desarrolladora Backend .NET  
 
 </td>
 <td width="40%" align="center">
